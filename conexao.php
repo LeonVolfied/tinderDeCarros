@@ -1,8 +1,8 @@
 <?php
 
-$host = "localhost";
+$host = "containers-us-west-28.railway.app";
 $user = "root";
-$pass = "";
+$pass = "m9OgbNefruEBLbCyYQd6";
 $dbname = "carros";
 
 
