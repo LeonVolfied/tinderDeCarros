@@ -88,10 +88,10 @@ if (!empty($dados['submit'])) {
     <header>
         <nav class="navbar">
             <div class="menu">
-                <a href="index.html">inicio</a>
+                <a href="index.php">inicio</a>
                 <a href="galeriaCarros.php">Galeria de Carros</a>
                 <a href="galeriaClientes.php">Galeria de Clientes</a>
-                <a href="sobre.html">Sobre</a>
+                <a href="sobre.php">Sobre</a>
             </div>
             <div class="menuCadastro">
                 <a href="CadastrarCarro.php">Cadastro de Carro</a>

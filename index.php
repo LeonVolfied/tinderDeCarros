@@ -1,11 +1,12 @@
 <?php
 
-    include('conexao.php');
+include('conexao.php');
 
 ?>
 
 <!DOCTYPE html>
 <html lang="Pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,14 +17,15 @@
     <title>Leote Car</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header >
+    <header>
         <nav class="navbar">
             <div class="menu">
-                <a href="index.html">inicio</a>
+                <a href="index.php">inicio</a>
                 <a href="galeriaCarros.php">Galeria de Carros</a>
                 <a href="galeriaClientes.php">Galeria de Clientes</a>
-                <a href="sobre.html">Sobre</a>
+                <a href="sobre.php">Sobre</a>
             </div>
             <div class="menuCadastro">
                 <a href="CadastrarCarro.php">Cadastro de Carro</a>
@@ -31,7 +33,7 @@
             </div>
         </nav>
     </header>
-    
+
     <div id="escolha" class="escolha">
         <div class="contained">
             <div class="icones">
@@ -53,7 +55,7 @@
                 <a href="CadastrarCarro.php" class="link">
                     <div class="b1Index">
                         <img class="icone" src="img/addCarro.png" alt="Cadastro de Carro "><br>
-                        <p>Cadastrar novo Carro</p>  
+                        <p>Cadastrar novo Carro</p>
                     </div>
                 </a>
 
@@ -69,4 +71,5 @@
 
 
 </body>
+
 </html>
